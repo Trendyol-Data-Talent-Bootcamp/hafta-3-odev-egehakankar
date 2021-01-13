@@ -1,3 +1,5 @@
+```SQL
+
 SELECT
   name,
   c.id as car_id,
@@ -17,3 +19,5 @@ JOIN
   UNNEST(manufacture) AS m
 ON
   c.id = m.id
+
+```
